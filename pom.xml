@@ -5,14 +5,14 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.5.7</version>
+		<version>2.6.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>praktikum</groupId>
-	<artifactId>Activity1DataKTP</artifactId>
+	<groupId>praktikum-ti</groupId>
+	<artifactId>konversiSuhu</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Activity1DataKTP</name>
-	<description>Demo project for Spring Boot</description>
+	<name>konversiSuhu</name>
+	<description>konversi suhu sederhana</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
