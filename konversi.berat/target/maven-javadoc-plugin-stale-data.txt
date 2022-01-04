@@ -1,0 +1,24 @@
+cmd.exe
+/X
+/C
+""C:\Program Files\Java\jdk-13.0.2\bin\javadoc.exe" @options @packages"
+C:\Users\USER DJOGJA\Documents\NetBeansProjects\konversi.berat\target\apidocs\allclasses-index.html = 1638803328416
+C:\Users\USER DJOGJA\Documents\NetBeansProjects\konversi.berat\target\apidocs\allpackages-index.html = 1638803328427
+C:\Users\USER DJOGJA\Documents\NetBeansProjects\konversi.berat\target\apidocs\constant-values.html = 1638803328169
+C:\Users\USER DJOGJA\Documents\NetBeansProjects\konversi.berat\target\apidocs\deprecated-list.html = 1638803328320
+C:\Users\USER DJOGJA\Documents\NetBeansProjects\konversi.berat\target\apidocs\element-list = 1638803328066
+C:\Users\USER DJOGJA\Documents\NetBeansProjects\konversi.berat\target\apidocs\help-doc.html = 1638803328441
+C:\Users\USER DJOGJA\Documents\NetBeansProjects\konversi.berat\target\apidocs\index-all.html = 1638803328401
+C:\Users\USER DJOGJA\Documents\NetBeansProjects\konversi.berat\target\apidocs\index.html = 1638803328431
+C:\Users\USER DJOGJA\Documents\NetBeansProjects\konversi.berat\target\apidocs\member-search-index.js = 1638803328379
+C:\Users\USER DJOGJA\Documents\NetBeansProjects\konversi.berat\target\apidocs\member-search-index.zip = 1638803328384
+C:\Users\USER DJOGJA\Documents\NetBeansProjects\konversi.berat\target\apidocs\options = 1638803323266
+C:\Users\USER DJOGJA\Documents\NetBeansProjects\konversi.berat\target\apidocs\overview-tree.html = 1638803328301
+C:\Users\USER DJOGJA\Documents\NetBeansProjects\konversi.berat\target\apidocs\package-search-index.js = 1638803328364
+C:\Users\USER DJOGJA\Documents\NetBeansProjects\konversi.berat\target\apidocs\package-search-index.zip = 1638803328371
+C:\Users\USER DJOGJA\Documents\NetBeansProjects\konversi.berat\target\apidocs\packages = 1638803323268
+C:\Users\USER DJOGJA\Documents\NetBeansProjects\konversi.berat\target\apidocs\script.js = 1638803328488
+C:\Users\USER DJOGJA\Documents\NetBeansProjects\konversi.berat\target\apidocs\search.js = 1638803328494
+C:\Users\USER DJOGJA\Documents\NetBeansProjects\konversi.berat\target\apidocs\stylesheet.css = 1638803328481
+C:\Users\USER DJOGJA\Documents\NetBeansProjects\konversi.berat\target\apidocs\type-search-index.js = 1638803328373
+C:\Users\USER DJOGJA\Documents\NetBeansProjects\konversi.berat\target\apidocs\type-search-index.zip = 1638803328376
