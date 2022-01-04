@@ -50,7 +50,7 @@ public class tableController {
         sayur.addAttribute("kilo",jmlSayur);
         sayur.addAttribute("tbayar",totalBayar);
         sayur.addAttribute("hargadisc",hargaDiskon);
-        sayur.addAttribute("disc",disc);
+        sayur.addAttribute("disc",disc + "%");
         sayur.addAttribute("total10",jumlahBayar);
         sayur.addAttribute("jumlah",pembayaran);
         sayur.addAttribute("kembali",kembalian);
