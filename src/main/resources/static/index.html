@@ -14,15 +14,21 @@ and open the template in the editor.
         <div>Data Sayur</div>
         <hr>
         <form action="/input">
-            <a>Nama Sayur</a><br>
-            <input type="text" name="nmSayur"><br>
-            <a>Harga Sayur</a><br>
-            <input type="number" name="hrgSayur"><br>
-            <a>Jumlah Beli</a><br>
-            <input type="number" name="jmlSayur"><br>
-            <a>Uang Bayar</a><br>
-            <input type="number" name="byrSayur"><br><br>
-            <button type="submit">Send</button>
+            <label for="name">Nama Sayur</label><br>
+            <input type="text" name="nmSayur" autofocus autocomplete="off"><br>
+            
+            <label for="price">Harga Sayur</label><br>
+            <input type="number" name="hrgSayur" autofocus autocomplete="off"><br>
+            
+            <label for="kilo">Jumlah Beli</label><br>
+            <input type="number" name="jmlSayur" autofocus autocomplete="off"><br>
+            
+            <label for="byrSayur">Uang Bayar</label><br>
+            <input type="nummber" name="byrSayur" autofocus autocomplete="off"><br>
+            
+            <p>
+                <button type="submit">Cetak</button>
+            </p>
         </form>
     </body>
 </html>

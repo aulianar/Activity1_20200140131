@@ -10,29 +10,57 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
-    <table border="2">
-        <dv>Struk Belanja</div>
-        <hr><!-- comment -->
-        <tr>
-            <th>Nama Sayur</th>
-            <th>Harga Perkilo</th>
-            <th>Jumlah Qty</th>
-            <th>Harga Awal</th>
-            <th>Jumlah Diskon</th>
-            <th>Total Harga Diskon</th>
-            <th>Total Bayar</th>
-            <th>Uang Bayar</th>
-            <th>Kembalian</th>
-        </tr>
-            <td th:text="${name}"></td>
-            <td th:text="${price}"></td>
-            <td th:text="${kilo}"></td>
-            <td th:text="${total10}"></td>
-            <td th:text="${disc}"></td>
-            <td th:text="${hargadisc}"></td>
-            <td th:text="${tbayar}"></td>
-            <td th:text="${jumlah}"></td>
-            <td th:text="${kembali}"></td>
-        </tr>
-    </table>
+    <body>
+        <h1>STRUK BELANJA</h1>
+        <hr>
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>Nama Suyur</td>
+                    <td>Harga Perkilo</td>
+                    <td>Jumlah Qty</td>
+                    <td>Harga Awal</td>
+                </tr>
+            </thead>
+            
+            <tbody>
+                <tr>
+                    <td th:text="${name}"></td>
+                    <td th:text="${price}"></td><!-- comment -->
+                    <td th:text="${kilo}"></td><!-- comment -->
+                    <td th:text="${total10}"></td><!-- comment -->
+                </tr>
+                
+                <tr>
+                    <td colspan="4" align="center">
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>Jumlah Diskon</td>
+                    <td colspan="3" th:text="${disc}"></td>
+                </tr>
+                
+                <tr>
+                    <td>Total Harga Diskon</td>
+                    <td colspan="3" th:text="${hargadisc}"></td>
+                </tr>
+                
+                <tr>
+                    <td>Total Bayar</td>
+                    <td colspan="3" th:text="${tbayar}"></td>
+                </tr>
+                
+                <tr>
+                    <td>Uang Bayar</td>
+                    <td colspan="3" th:text="${jumlah}"></td>
+                </tr>
+                
+                 <tr>
+                    <td>Kembalian</td>
+                    <td colspan="3" th:text="${kembali}"></td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
 </html>
